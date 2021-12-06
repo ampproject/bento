@@ -20,15 +20,5 @@
       "files": [".prettierrc", ".renovaterc.json", "*.json"],
       "options": {"parser": "json"}
     },
-    {
-      "files": "build-system/**/*.json",
-      "options": {"parser": "json-stringify"}
-    },
-    {
-      "files": "build-system/tasks/make-extension/template/**",
-      "options": {
-        "requirePragma": true
-      }
-    }
   ]
 }
