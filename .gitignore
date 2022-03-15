@@ -1,1 +1,6 @@
 **node_modules**
+.*-cache/**
+.vscode/**
+build/**
+**/dist/**
+.DS_Store
